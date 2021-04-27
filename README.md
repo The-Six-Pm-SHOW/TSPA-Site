@@ -1,4 +1,4 @@
-# TSPA-Site
+# TSPS Site
 
 ## Note
 For updating, run the following command in Git Bash:
