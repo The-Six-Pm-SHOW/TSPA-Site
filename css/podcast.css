@@ -407,9 +407,9 @@ footer ul {
 }
 .posterlatestep {
   position: absolute;
-  width: 80%;
+  width: 75%;
   height: 650px;
-  margin-left: 9.5%;
+  margin-left: 10%;
   margin-top: 1143px;
   background-color: #c4c4c4;
 }
@@ -1251,6 +1251,13 @@ span {
   }
   nav ul li.items:hover:after {
     opacity: 0;
+  }
+
+  .posterlatestep {
+    position: absolute;
+    width: 80%;
+    height: 280px;
+    margin-left: 10%;
   }
 
   #Ellipse {
