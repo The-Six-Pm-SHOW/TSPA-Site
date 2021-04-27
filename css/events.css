@@ -755,7 +755,7 @@ section .title-line {
   font-family: Roboto;
   font-style: normal;
   
-  font-size: 45px;
+  font-size: 30px;
   line-height: 111.08%;
   /* or 71px */
   letter-spacing: -0.04em;
@@ -805,6 +805,62 @@ section .title-line {
 
 h1 {
   padding: 10%;
+}
+
+.quote-box p#cp1{
+  margin-top:23%;
+}
+
+.quote-box p#cp2 {
+  margin-top: 43%;
+}
+
+.quote-box p#cp3 {
+  margin-top: 25%;
+}
+
+.quote-box p#cp4 {
+  margin-top: 35%;
+}
+
+.quote-box p#cp5 {
+  margin-top: 23%;
+}
+
+.quote-box p#cp6 {
+  margin-top: 22%;
+}
+
+.quote-box p#cp7 {
+  margin-top: 20%;
+}
+
+.quote-box p#cp8 {
+  margin-top: 35%;
+}
+
+.quote-box p#cp9 {
+  margin-top: 8%;
+}
+
+.quote-box p#cp10 {
+  margin-top: 35%;
+}
+
+.quote-box p#cp11 {
+  margin-top: 28%;
+}
+
+.quote-box p#cp12 {
+  margin-top: 28%;
+}
+
+.quote-box p#cp13 {
+  margin-top: 15%;
+}
+
+.quote-box p#cp14 {
+  margin-top: 35%;
 }
 
 @media only screen and (max-width: 4000px) {
@@ -864,8 +920,10 @@ h1 {
     grid-row: 4;
   }
   .even-event .quote-box p {
-    font-size: 35px;
+    font-size: 25px;
   }
+
+
   .even-event button {
     font-size: 30px;
     width: 270px;
@@ -912,8 +970,13 @@ h1 {
   }
   .even-event .quote-box p {
     margin: 0;
-    padding: 36px 10px;
+    padding: 3px 18px;
   }
+
+  
+
+
+
   .even-event button {
     grid-row: 3;
     width: 285px;
@@ -1191,7 +1254,7 @@ h1 {
   font-family: Roboto;
   font-style: normal;
   
-  font-size: 45px;
+  font-size: 30px;
   line-height: 111.08%;
   /* or 71px */
   letter-spacing: -0.04em;
@@ -1272,8 +1335,51 @@ h1 {
     transform: translate(35%, 10%);
   }
   .odd-event .quote-box p {
-    font-size: 35px;
+    font-size: 25px;
   }
+
+  .quote-box p#cp1,
+  .quote-box p#cp5,
+  .quote-box p#cp6 {
+    margin-top: 15%;
+  }
+
+   .quote-box p#cp2 {
+     margin-top: 35%;
+   }
+
+  .quote-box p#cp3,
+  .quote-box p#cp8,
+  .quote-box p#cp14 {
+    margin-top: 20%;
+  }
+
+  .quote-box p#cp4 {
+    margin-top: 30%;
+  }
+
+  .quote-box p#cp7,
+  .quote-box p#cp13 {
+    margin-top: 8%;
+  }
+
+  .quote-box p#cp9 {
+    margin: 10% 2%;
+    padding: 0;
+    margin-left: 12%;
+    font-size: 24px;
+  }
+
+  .quote-box p#cp10,
+  .quote-box p#cp11 {
+    margin-top:25%;
+  }
+
+  .quote-box p#cp12{
+    margin-top: 17%;
+  }
+  
+
   .odd-event button {
     font-size: 25px;
     width: 236px;
@@ -1337,6 +1443,53 @@ h1 {
     margin: 0;
     padding: 36px 10px;
   }
+
+  .quote-box p#cp2 {
+    margin-top: 6%;
+  }
+
+  .quote-box p#cp3 {
+    margin-top: 16%;
+    margin-left: 3%;
+  }
+
+  .quote-box p#cp4 {
+    margin-top: 10%;
+    padding: 15px;
+  }
+
+  .quote-box p#cp6 {
+    margin-top: 10%;
+    padding-top: 0;
+  }
+
+  .quote-box p#cp7{
+    margin-top:10%;
+    padding-left: 10%;
+  }
+
+  .quote-box p#cp8,
+  .quote-box p#cp14 {
+    margin-top: 3%;
+  }
+  .quote-box p#cp9 {
+    margin-left:7px;
+  }
+  .quote-box p#cp10 {
+    margin-top: 8%;
+  }
+  .quote-box p#cp11 {
+    margin-top: 18%;
+    margin-left: 2%;
+    padding: 0;
+  }
+  
+  .quote-box p#cp13 {
+    padding: 0 8%;
+    margin-top: 6%;
+  }
+
+
 }
 
 @media screen and (max-width: 540px) {
@@ -1396,6 +1549,11 @@ h1 {
     margin: 40px 0 0 0;
     width: 220px;
   }
+
+  .quote-box p#cp13 {
+    padding: 0 8%;
+    margin-top: 6%;
+  }
 }
 
 @media screen and (max-width: 380px) {
@@ -1431,7 +1589,26 @@ h1 {
   .odd-event .quote-box{
     margin: 370px 0px 0 0;
   }
+
+  .quote-box p#cp2 {
+    margin-top: 12%;
+  }
+  .quote-box p#cp5,
+  .quote-box p#cp9 {
+    margin-top:6%;
+  }
+  .quote-box p#cp11 {
+    margin-top: 25%;
+  }
+  .quote-box p#cp12 {
+    margin-top: 0;
+  }
+  .quote-box p#cp13 {
+    margin-top: 10%;
+    margin-left: 3%;
+  }
 }
+
 
 /* Footer */
 
