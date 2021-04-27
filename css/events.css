@@ -497,7 +497,7 @@ nav ul li.btn.hide i:before {
 #shape {
   stroke-width: 6px;
   fill: transparent;
-  stroke: #fd0000;
+  stroke: #ffff00;
   stroke-dasharray: 85 400;
   stroke-dashoffset: -220;
   transition: 1s all ease;
