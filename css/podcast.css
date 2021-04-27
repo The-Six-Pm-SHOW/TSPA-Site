@@ -319,6 +319,10 @@ footer ul {
   margin-right: 0px;
   border-top-right-radius: 350px;
 }
+.banner-img {
+  margin-top: 10px;
+}
+
 .Ellipse3 {
   position: absolute;
   width: 12.45%;
@@ -340,7 +344,7 @@ footer ul {
 .Rectangle31 {
   position: absolute;
   width: 85.9%;
-  height: 244px;
+  height: 285px;
   margin-left: 14%;
   margin-top: 685px;
   background-color: #386bcd;
@@ -352,14 +356,23 @@ footer ul {
   position: absolute;
   width: 75%;
   height: 180px;
-  margin-left: 23.5%;
-  margin-top: 735px;
+  margin-left: 21.5%;
+  margin-top: 710px;
   font-family: "Roboto-Bold", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 64px;
   line-height: 75px;
   color: #000000;
+}
+.AboutPodcast p {
+  font-family: "Roboto-Bold", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-right: 130px;
 }
 .latestep {
   position: absolute;
@@ -847,6 +860,37 @@ span {
   margin-top: 167.06px;
   background-color: #000000;
 }
+
+
+@media screen and (max-width: 810px) {
+  .banner-img {
+    margin-top: 40px;
+  }
+  .Rectangle31 {
+    margin-top: 585px;
+    height: 385px;
+  }
+  .AboutPodcast {
+    margin-top: 615px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .Rectangle31 {
+    margin-top: 380px;
+    height: 518px;
+  }
+  .AboutPodcast {
+    margin-top: 397px;
+  }
+  .AboutPodcast p {
+    margin-right: 15px;
+  }
+}
+
+
+
 @media screen and (max-width: 736px) {
   .LatestEpisode1 {
     top: 70px;
