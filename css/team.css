@@ -904,6 +904,8 @@ section {
   align-content: center;
   align-items: center;
   justify-content: center;
+
+  place-items: center;
 }
 a,
 a:hover,
